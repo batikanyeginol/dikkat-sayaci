@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikkat Dağınıklığı Sayaç</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #counter {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Dikkat Dağınıklığı Sayacı</h1>
+    <p>Çalışmaya başladığınızdan beri telefonunuz <span id="counter">0</span> kere dikkatinizi dağıttı</p>
+    <button onclick="incrementCounter()">Dikkat Dağıldı</button>
+</body>
+<script src="script.js"></script>
+</html>
